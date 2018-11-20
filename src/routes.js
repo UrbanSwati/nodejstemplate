@@ -10,7 +10,7 @@ routes.get('/', (req, res) => {
 routes.post('/register', userController.registerUser);
 routes.post('/login', userController.loginUser);
 
-routes.get('/special', passport.authenticate('jwt', {
+routes.get('/test', passport.authenticate('jwt', {
   session: false
 }), (req, res) => {
   return res.json({
