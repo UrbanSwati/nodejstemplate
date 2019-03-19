@@ -1,4 +1,4 @@
 module.exports = {
-  jwtSecret: 'long-live-the-ionic-academy',
+  jwtSecret: 'eat-and-live-code',
   db: 'mongodb://localhost/nodejstemplate'
 };
