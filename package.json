@@ -5,7 +5,9 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "William Maphanga",
@@ -19,6 +21,8 @@
     "mongoose": "^5.3.12",
     "mongose": "0.0.2-security",
     "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0"
-  }
+    "passport-jwt": "^4.0.0",
+    "snyk": "^1.198.0"
+  },
+  "snyk": true
 }
