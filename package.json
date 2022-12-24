@@ -21,7 +21,7 @@
     "mongoose": "^5.7.5",
     "mongose": "0.0.2-security",
     "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
+    "passport-jwt": "^4.0.1",
     "snyk": "^1.235.0"
   },
   "snyk": true
